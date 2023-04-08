@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] ='Superhero8871@gmail.com'
-app.config['MAIL_PASSWORD'] ='rsnsvxmdbioivlqc'
+app.config['MAIL_PASSWORD'] ='Enter Your app key'
 app.config['MAIL_DEFAULT_SENDER'] ='Superhero8871@gmail.com'
 app.config['MAIL_USE_TLS']=False  #SSL stands for Secure Sockets Layer, and is a protocol that protects communication over the internet
 app.config['MAIL_USE_SSL']=True
@@ -17,7 +17,7 @@ mail = Mail(app)
 
 otp=random.randint(100000, 999999)
 email1 = 0
-url = 'https://x8ki-letl-twmt.n7.xano.io/api:stgK5ahJ/verified_emails'
+url = 'xano post url'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
