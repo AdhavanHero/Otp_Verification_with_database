@@ -26,8 +26,7 @@ def index():
           global email1  # Declare the variable as global to update its value
           email1 = email
           print(email1)
-          # TODO: Call Xano API
-          # TODO: Validate otp
+         
 
           msg = Message(subject='OTP', sender='Superhero8871@gmail.com', recipients=[email])
           msg.body = str(otp)
